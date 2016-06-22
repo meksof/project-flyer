@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Poject Flyer	</title>
-  <link rel="stylesheet" href="/css/app.css">
-  <link rel="stylesheet" href="/css/libs.css">
+  <link rel="stylesheet" href="{{ url('/css/app.css') }}">
+  <link rel="stylesheet" href="{{ url('/css/libs.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/dropzone.css">
 </head>
 <body>
@@ -37,7 +37,7 @@
 	<div class="container">
 		@yield('content')
 	</div>
-  <script src="/js/libs.js"></script>
+  <script src="{{ url('/js/libs.js') }}"></script>
   @yield('scripts')
   @include('flash')
 </body>
