@@ -10,9 +10,11 @@ https://laracasts.com/series/build-project-flyer-with-me
 - npm install
 
 - rename .env.example to .env and change the following settings to your correspondant database params: 
-```DB_HOST=localhost
-DB_DATABASE=laravel_projectflyer
-DB_USERNAME=username
-DB_PASSWORD=password```
+```
+DB_HOST=localhost
+DB_ATABASE=laravel_projectflyer 
+DB_USERNAME=username 
+DB_PASSWORD=password
+```
 
 - run a web browser on http://localhost/project-flyer/public
